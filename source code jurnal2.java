@@ -30,12 +30,11 @@ l-=2;
 System.out.println("");
 }
 
- 
- public static void mengambilSpecialKarakter(String kalimat){
+public static void mengambilSpecialKarakter(String kalimat){
         String kalimatBaru = kalimat.replaceAll("[a-zA-Z0-9 ]*", "");
         System.out.println("Spesial Karakter : " + kalimatBaru);
         String [] splitKalimat = kalimatBaru.split("");
         System.out.println("Jumlah special karakter : " + splitKalimat.length);
         
-    }
+    } // CONTOH MERGE NO 2
 }
