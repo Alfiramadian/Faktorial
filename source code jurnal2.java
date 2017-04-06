@@ -29,5 +29,5 @@ l-=2;
  
 System.out.println("");
 }
- 
+ //CONTOH INI MERGE NOR 2 YAA KAK
 }
